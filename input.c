@@ -12,6 +12,10 @@ int main (){
     float f;
     char c;
 
-    scanf("%d","%f","%c" , &b,&f,&c);
-    printf("%d\n","%f\n","%c\n" , b,f,c);
+    scanf("%d %f %c", &b, &f, &c);
+
+    printf("%d\n%.2f\n%c", b, f, c);
+
+
+    return 0;
 }
